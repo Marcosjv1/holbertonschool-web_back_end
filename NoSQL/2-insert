@@ -1,0 +1,2 @@
+// mi comment
+db.school.insert({ name: "Holberton school" })
