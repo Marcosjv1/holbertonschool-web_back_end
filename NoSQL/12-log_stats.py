@@ -19,7 +19,7 @@ def log_stats():
         count = collection.count_documents({"method": method})
         print("\tmethod {}: {}".format(method, count))
 
-    # Estado de check
+    # Conteo específico de status check
     status_check = collection.count_documents({"method": "GET", "path": "/status"})
     print("{} status check".format(status_check))
 
